@@ -1,4 +1,4 @@
-from .main import resposta
+from main import resposta
 import inspect
 import pytest
 
