@@ -6,6 +6,6 @@ Reza a lenda que que o programador que não fizer no seu primeiro código as ins
 
 ### Retorne Olá Mundo
 
-Abra o arquivo `hello_world.py`. Certifique-se que a função `hello_world` **`return`** a expressão 'Olá Mundo'. Mas aqui já incluímos seu primeiro desafio, pois **`return`** é diferente de **`print`**.
+Abra o arquivo `main.py`. Certifique-se que a função `resposta` **`return`** a expressão 'Olá Mundo'. Mas aqui já incluímos seu primeiro desafio, pois **`return`** é diferente de **`print`**.
 
 O resultado de sua função deverá ser uma `String` com exatos 9 caracteres.
