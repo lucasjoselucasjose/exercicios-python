@@ -10,7 +10,7 @@ def test_type():
 
 
 def test_parameters():
-    assert len(inspect.getfullargspec(resposta).args) == 2, "Assinatura da função deverá receber dois parâmetro"
+    assert len(inspect.getfullargspec(resposta).args) == 2, "Assinatura da função deverá receber dois parâmetros"
 
 def test_options_resposta():
     assert resposta(False, 13) == False , f"Esperado valor 'False'"
