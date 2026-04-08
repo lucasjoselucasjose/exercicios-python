@@ -1,5 +1,5 @@
 ---
-Tags: Estruturas Condicionais (if), Operadores Lógicos, Operadores de Comparação, Funções, Parâmetros, Instrução return
+Tags: Estruturas Condicionais (if), Operadores Lógicos, Operadores de Comparação
 Nível: Iniciante
 ---
 
@@ -20,8 +20,6 @@ A função deverá receber três valores numéricos (representando os lados de u
   - `"equilátero"` (todos os lados iguais)
   - `"isósceles"` (dois lados iguais)
   - `"escaleno"` (todos os lados diferentes)
-
-Caso o exercício original peça entrada de dados com `input()`, considere que esses valores serão passados como parâmetros para a função `resposta`.
 
 Regras:
 
