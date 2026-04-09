@@ -1,4 +1,4 @@
-from metro_milimetro.main import resposta
+from quantidade_preco.main import resposta
 import inspect
 import pytest
 
@@ -8,7 +8,7 @@ def test_not_none():
 
 
 def test_type():
-    assert type(resposta(13)) == int or type(resposta(3.2)) == float, "Esperado um inteiro ou float"
+    assert type(resposta(13)) == tuple, "Esperado uma tupla"
 
 
 def test_parameters():
@@ -16,6 +16,5 @@ def test_parameters():
 
 
 def test_options_resposta():
-    assert resposta(10) == 10000, f"Esperado valor 10000"
-    assert resposta(1.2) == 1200, f"Esperado valor 1200"
-    assert resposta(0.93) == 930, f"Esperado valor 930"
+    assert resposta(10) == (1, 80.0), f"Esperado valor (1, 80.0)"
+    assert resposta(60) == (2, 160), f"Esperado valor (2, 160)"

@@ -1,5 +1,5 @@
 ---
-Tags: Variáveis, Operações Aritméticas, Funções Matemáticas, Estruturas Condicionais (if), Funções, Parâmetros, Instrução return
+Tags: Variáveis, Operações Aritméticas, Funções Matemáticas, Estruturas Condicionais (if), Tuplas
 Nível: Iniciante
 ---
 
@@ -17,8 +17,6 @@ A função deverá receber um valor numérico representando o tamanho da área a
 
 - A quantidade de latas de tinta a serem compradas
 - O preço total da compra
-
-Caso o exercício original peça entrada de dados com `input()`, considere que esse valor será passado como parâmetro para a função `resposta`.
 
 Regras:
 
