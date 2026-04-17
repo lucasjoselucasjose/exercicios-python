@@ -15,10 +15,8 @@ Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
 A função deverá receber três valores numéricos e retornar uma tupla contendo:
 
-- O maior valor  
-- O menor valor  
-
-Caso o exercício original peça entrada de dados com `input()`, considere que esses valores serão passados como parâmetros para a função `resposta`.
+- O maior valor
+- O menor valor
 
 Regras:
 
@@ -28,8 +26,8 @@ Regras:
 
 Exemplos:
 
-- `resposta(10, 20, 5)` → `(20, 5)`  
-- `resposta(7, 3, 9)` → `(9, 3)`  
-- `resposta(4, 4, 2)` → `(4, 2)`  
+- `resposta(10, 20, 5)` → `(20, 5)`
+- `resposta(7, 3, 9)` → `(9, 3)`
+- `resposta(4, 4, 2)` → `(4, 2)`
 
 **Atenção:** utilize `return`, não `print`.

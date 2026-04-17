@@ -1,21 +1,20 @@
-from metro_milimetro.main import resposta
+from maior_menor.main import resposta
 import inspect
 import pytest
 
 
 def test_not_none():
-    assert resposta(10) is not None, "Esperado valor diferente de 'None'"
+    assert resposta(10, 20, 30) is not None, "Esperado valor diferente de 'None'"
 
 
 def test_type():
-    assert type(resposta(13)) == int or type(resposta(3.2)) == float, "Esperado um inteiro ou float"
+    assert type(resposta(13, 14, 15)) == tuple, "Esperado uma tupla"
 
 
 def test_parameters():
-    assert len(inspect.getfullargspec(resposta).args) == 1, "Assinatura da função deverá receber um parâmetro"
-
+    assert len(inspect.getfullargspec(resposta).args) == 3, "Assinatura da função deverá receber três parâmetros"
 
 def test_options_resposta():
-    assert resposta(10) == 10000, f"Esperado valor 10000"
-    assert resposta(1.2) == 1200, f"Esperado valor 1200"
-    assert resposta(0.93) == 930, f"Esperado valor 930"
+    assert resposta(10, 20, 5) == (20, 5), f"Esperado valor (20, 5)"
+    assert resposta(7, 3, 9) == (9, 3), f"Esperado valor (9, 3)"
+    assert resposta(4, 4, 2) == (4, 2), f"Esperado valor (4, 2)"
