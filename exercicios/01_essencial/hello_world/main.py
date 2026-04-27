@@ -1,2 +1,3 @@
 def resposta():
-    pass
+    return "Olá mundo"
+  
